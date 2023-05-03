@@ -44,11 +44,11 @@ In this section, we try to figure the effect of increasing the the minimum-suppo
 As part of the main experiments to evaluate the performance of our method on different datasets, different values of M-estimate and Jaccard-similarity will be used to see how sensitive our method is for choosing the value of each parameter.
 
 <p align="justify">
-In the first table, 16 datasets have been selected from the UCI repository, to evaluate the performance of our method. It contains the main characteristics of each dataset, such as, the type of each dataset, the number of samples, features, and classes each dataset has. Moreover, the default values of number of iterations and minimum-support, which we considered for each dataset are defined. That consideration took into account, the type, and size of each dataset. For the M-estimate values, the range of values to be tested is $\{0.1, 0.5, 1, 5, 10, 20\}$, and $\{0.2, 0.5, 0.8\}$ for the Jaccard-similarity values, as $\theta \in [0, 1]$. 
+In $table\_4.1$, 16 datasets have been selected from the UCI repository, to evaluate the performance of our method. It contains the main characteristics of each dataset, such as, the type of each dataset, the number of samples, features, and classes each dataset has. Moreover, the default values of number of iterations and minimum-support, which we considered for each dataset are defined. That consideration took into account, the type, and size of each dataset. For the M-estimate values, the range of values to be tested is $\{0.1, 0.5, 1, 5, 10, 20\}$, and $\{0.2, 0.5, 0.8\}$ for the Jaccard-similarity values, as $\theta \in [0, 1]$. 
 
 
 <p align="center">
-<img width="700" height="500" src="https://github.com/MSc-MGomaa/A-performancce-Analysis-of-MCTS-classification-model./blob/main/table1.jpg">
+<img width="800" height="400" src="https://github.com/MSc-MGomaa/A-performancce-Analysis-of-MCTS-classification-model./blob/main/table1.png">
 </p>
 
 
