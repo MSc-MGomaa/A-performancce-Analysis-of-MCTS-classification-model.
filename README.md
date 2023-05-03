@@ -79,7 +79,7 @@ Fig 4.9 summarizes the results, where in Fig 4.9.a, the maximum number of datase
 
 
 <p align="center">
-<img width="700" height="350" src="https://github.com/MSc-MGomaa/A-performancce-Analysis-of-MCTS-classification-model./blob/main/fig8.png">
+<img width="700" height="350" src="https://github.com/MSc-MGomaa/A-performancce-Analysis-of-MCTS-classification-model./blob/main/fig9.png">
 </p>
 
 
