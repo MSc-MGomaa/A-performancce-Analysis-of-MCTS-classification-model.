@@ -120,7 +120,7 @@ Fig 12.a compares between our method and the RIPPER approach. A distinctive perf
 When comparing that performance with J48, PART, and Random-forest as shown in Fig 12.b, Fig 12.c, and Fig 12.d, We note that the number of datasets that achieved better results using these methods is larger compared to our method. However, In the case of J48, the variance between the results achieved using this approach and our method is very small in many cases. And the same is applied for PART. Whereas in the case of Random-Forest, this variance increases, which reflects the characteristic performance of Random-Forest.
 
 <p align="center">
-<img width="800" height="500" src="https://github.com/MSc-MGomaa/A-performancce-Analysis-of-MCTS-classification-model./blob/main/table5.png">
+<img width="700" height="600" src="https://github.com/MSc-MGomaa/A-performancce-Analysis-of-MCTS-classification-model./blob/main/Fig12.png">
 </p>
 
 At the same time, when all the results are combined together, we notice that the datasets that our method showed weakness in the case of RIPPER are the same in every other algorithm, Confirming our assumption that the number of iterations assigned to these datasets were not sufficient, as these datasets needed to be more explored.
