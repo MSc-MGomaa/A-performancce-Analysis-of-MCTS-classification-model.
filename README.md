@@ -89,11 +89,17 @@ Note, the number of datasets that are represented in Fig 4.9.a is 17, as the "Vo
 For the Jaccard-similarity values, Fig 4.9.b shows that, the maximum number of datasets that achieved the max accuracy was when M-estimate = 0.5, which means that, at least half of the samples that are covered by the first $rule$ need to be different from those that are covered by the second $rule$ to be called non-similar $rules$. While the least number was when M-estimate = 0.8, which is considered a large value, and not-recommended specially in case of small datasets. Note, the number of datasets that are represented in Fig 4.9.b is 13, as the remaining datasets achieved the may accuracy value using the $Separate~and~Conquer$ approach.
 
 
+## Separate and Conquer (VS) Jaccard-similarity
+<p align="justify">
+To compare the two composition techniques we used in our method to create the $RuleSets$, the maximum accuracy value achieved by each for each dataset should be taken into account. 
+
+<p align="justify">
+Fig 4.10 shows the general performance of the two approaches, where Jaccard-similarity shows an outstanding performance, where (12 out of 16) datasets achieved maximum accuracy using this approach. When digging into the details of each dataset, we can figure that the both approaches behaved in a similar way in case of "Numerical" datasets, as shown in Fig.6, and Fig.7. However, in case of "Categorical" datasets, as shown in Fig.7 (Lymph, Mushrooms, Nursery, Tic-tac-toe, and Vote), The $S\&Q$ approach shows stable performance regardless the value of M-estimate compared to the Jaccard-similarity approach, which shows a weakness in case of small M-estimate values.
 
 
-
-
-
+<p align="center">
+<img width="700" height="350" src="https://github.com/MSc-MGomaa/A-performancce-Analysis-of-MCTS-classification-model./blob/main/fig10.png">
+</p>
 
 
 
