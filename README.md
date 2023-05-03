@@ -52,7 +52,7 @@ In $table\_4.1$, 16 datasets have been selected from the UCI repository, to eval
 </p>
 
 <p align="justify">
-The results of the experiments are summarized in the tables $table\_4.2$, $table\_4.3$, and $table\_4.4$. Moreover, a graphical representation of the performance of each dataset can be seen on Fig $4.7$, and Fig$4.8$. To see how well each M-estimate and Jaccard-similarity value perform, the datasets that have achieved the maximum accuracy using each value will be counted. 
+The results of the experiments are summarized in the tables $table\_4.2$, $table\_4.3$, and $table\_4.4$. Moreover, a graphical representation of the performance of each dataset can be seen on Fig $4.7$, and Fig $4.8$. To see how well each M-estimate and Jaccard-similarity value perform, the datasets that have achieved the maximum accuracy using each value will be counted. 
 
 <p align="center">
 <img width="850" height="400" src="https://github.com/MSc-MGomaa/A-performancce-Analysis-of-MCTS-classification-model./blob/main/table2.png">
@@ -74,10 +74,13 @@ The results of the experiments are summarized in the tables $table\_4.2$, $table
 <img width="650" height="900" src="https://github.com/MSc-MGomaa/A-performancce-Analysis-of-MCTS-classification-model./blob/main/fig7.png">
 </p>
 
-Fig~\ref{fig:merge3} summarizes the results, where in Fig~\ref{fig:merge3}.a, the maximum number of datasets that achieved the max accuracy was when \emph{M-estimate} = 5, while the least number was when m = 0.1. The value of 0.1 represents a strict condition, where only the most promising nodes to be explored. On the other side, the value of 5 gives a chance to the least promising nodes to be explored. And from the results, the second technique ended up with a better performance.
+<p align="justify">
+Fig 4.9 summarizes the results, where in Fig 4.9.a, the maximum number of datasets that achieved the max accuracy was when M-estimate = 5, while the least number was when m = 0.1. The value of 0.1 represents a strict condition, where only the most promising nodes to be explored. On the other side, the value of 5 gives a chance to the least promising nodes to be explored. And from the results, the second technique ended up with a better performance.
 
 
-
+<p align="center">
+<img width="700" height="350" src="https://github.com/MSc-MGomaa/A-performancce-Analysis-of-MCTS-classification-model./blob/main/fig8.png">
+</p>
 
 
 
