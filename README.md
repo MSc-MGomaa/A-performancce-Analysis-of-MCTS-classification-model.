@@ -98,7 +98,7 @@ Fig 4.10 shows the general performance of the two approaches, where Jaccard-simi
 
 
 <p align="center">
-<img width="700" height="350" src="https://github.com/MSc-MGomaa/A-performancce-Analysis-of-MCTS-classification-model./blob/main/fig10.png">
+<img width="800" height="500" src="https://github.com/MSc-MGomaa/A-performancce-Analysis-of-MCTS-classification-model./blob/main/Fig10.png">
 </p>
 
 
