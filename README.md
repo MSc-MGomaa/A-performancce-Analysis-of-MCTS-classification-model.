@@ -82,7 +82,11 @@ Fig 4.9 summarizes the results, where in Fig 4.9.a, the maximum number of datase
 <img width="700" height="350" src="https://github.com/MSc-MGomaa/A-performancce-Analysis-of-MCTS-classification-model./blob/main/fig9.png">
 </p>
 
+<p align="justify">
+Note, the number of datasets that are represented in Fig 4.9.a is 17, as the "Vote" dataset has achieved the max accuracy when M-estimate value = 5 and 10, so it's counted twice. However, the max accuracy value for the same dataset was achieved also when the M-estimate value = 1, but we decided to exclude it, as variance in the results is high compared to the values when M-estimate value = 5 and 10.
 
+<p align="justify">
+For the Jaccard-similarity values, Fig 4.9.b shows that, the maximum number of datasets that achieved the max accuracy was when M-estimate = 0.5, which means that, at least half of the samples that are covered by the first $rule$ need to be different from those that are covered by the second $rule$ to be called non-similar $rules$. While the least number was when M-estimate = 0.8, which is considered a large value, and not-recommended specially in case of small datasets. Note, the number of datasets that are represented in Fig 4.9.b is 13, as the remaining datasets achieved the may accuracy value using the $Separate~and~Conquer$ approach.
 
 
 
