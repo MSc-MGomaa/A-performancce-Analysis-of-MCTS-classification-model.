@@ -15,3 +15,8 @@ The value of minimum-support was set $10$, a small value to allow the generation
 <p align="justify">
 Fig \ref{fig:test1} shows the resulting predictive accuracy when increasing the number of iterations on two datasets, $Wine$ and $Heart$ averaged over ten runs. Regardless of the $Rule Set$ configuration method, it shows a continuous increase. However, in such a case, and with the current settings, the optimal solution has not yet been reached, which means a bigger number of iterations is still needed to discover the search space. The runtime corresponding to each experiment shows an exponential growth when a bigger number of iterations is given.
 
+<p align="center">
+<img width="800" height="500" src="https://github.com/MSc-MGomaa/A-performancce-Analysis-of-MCTS-classification-model./blob/main/test1.jpg">
+</p>
+
+
