@@ -27,6 +27,37 @@ On the other side, using the same settings on other datasets showed a different 
 </p>
 
 
+## Q2: Minimum Support Value
+<p align="justify">
+Choosing an appropriate $minimum\_support$ value plays a vital role in both the resulting $predictive\_accuracy$ and runtime. In the section before, the value of $minimum\_support$ was set to 10, which means that, only the $rules$ that cover at least 10 samples of the given dataset are considered. This value can be considered as a small value, especially when dealing with large datasets, where it will take a long time to run each rollout step in each iteration until an infrequent rule is reached as explained in $rollout\_phase$. At the same time, a small value of $minimum\_support$ allows the discovering of valuable $rules$ during the rollout phase, which are kept in the $external\_memory$ for use in the step of forming $Rule\_Sets$.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
