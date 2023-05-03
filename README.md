@@ -52,7 +52,7 @@ In $table\_4.1$, 16 datasets have been selected from the UCI repository, to eval
 </p>
 
 <p align="justify">
-The results of the experiments are summarized in the tables $table\_4.2$, $table\_4.3$, and $table\_4.4$. Moreover, a graphical representation of the performance of each dataset can be seen on Fig~\ref{fig:merge1}, and~\ref{fig:merge2}. To see how well each M-estimate and Jaccard-similarity value perform, the datasets that have achieved the maximum accuracy using each value will be counted. Fig~\ref{fig:merge3} summarizes the results, where in Fig~\ref{fig:merge3}.a, the maximum number of datasets that achieved the max accuracy was when \emph{M-estimate} = 5, while the least number was when m = 0.1. The value of 0.1 represents a strict condition, where only the most promising nodes to be explored. On the other side, the value of 5 gives a chance to the least promising nodes to be explored. And from the results, the second technique ended up with a better performance.
+The results of the experiments are summarized in the tables $table\_4.2$, $table\_4.3$, and $table\_4.4$. Moreover, a graphical representation of the performance of each dataset can be seen on Fig $6$, and Fig.7. To see how well each M-estimate and Jaccard-similarity value perform, the datasets that have achieved the maximum accuracy using each value will be counted. Fig~\ref{fig:merge3} summarizes the results, where in Fig~\ref{fig:merge3}.a, the maximum number of datasets that achieved the max accuracy was when \emph{M-estimate} = 5, while the least number was when m = 0.1. The value of 0.1 represents a strict condition, where only the most promising nodes to be explored. On the other side, the value of 5 gives a chance to the least promising nodes to be explored. And from the results, the second technique ended up with a better performance.
 
 <p align="center">
 <img width="850" height="400" src="https://github.com/MSc-MGomaa/A-performancce-Analysis-of-MCTS-classification-model./blob/main/table2.png">
@@ -66,6 +66,13 @@ The results of the experiments are summarized in the tables $table\_4.2$, $table
 <img width="850" height="400" src="https://github.com/MSc-MGomaa/A-performancce-Analysis-of-MCTS-classification-model./blob/main/table4.png">
 </p>
 
+<p align="center">
+<img width="650" height="900" src="https://github.com/MSc-MGomaa/A-performancce-Analysis-of-MCTS-classification-model./blob/main/fig6.png">
+</p>
+
+<p align="center">
+<img width="650" height="900" src="https://github.com/MSc-MGomaa/A-performancce-Analysis-of-MCTS-classification-model./blob/main/fig7.png">
+</p>
 
 
 
