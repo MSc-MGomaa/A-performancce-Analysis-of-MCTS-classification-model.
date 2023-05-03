@@ -1,6 +1,12 @@
 # A-performancce-Analysis-of-MCTS-classification-model.
 Hyperparameter analysis, and comparison with current  state-of-art classification algorithms.
 
+## Important Note
+The following Analysis is based on the model created when implementing the topics explained in:<br>
+[1 : MCTS-For-Rule-learning](https://github.com/MSc-MGomaa/MCTS-For-Rule-learning). <br>
+[2 : Separate-and-Conquer-algorithm-for-pattern-set-composition](https://github.com/MSc-MGomaa/Jaccard-based-Similarity-algorithm-in-pattern-mining-tasks).<br>
+[3 : Jaccard-based-Similarity-algorithm-in-pattern-mining-tasks](https://github.com/MSc-MGomaa/Jaccard-based-Similarity-algorithm-in-pattern-mining-tasks) <br>
+
 ## Main Idea
 <p align="justify">
 To evaluate our method, a large number of experiments were performed. As our model receives multiple hyperparameters, our goal is to examine the behavior of each parameter, and find out how sensitive our method for choosing the value of each parameter is. In the second part, the predictive-accuracy of our method will be compared to the state-of-art classification algorithms.
