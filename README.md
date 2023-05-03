@@ -48,7 +48,7 @@ In the first table, 16 datasets have been selected from the UCI repository, to e
 
 
 <p align="center">
-<img width="700" height="1000" src="https://github.com/MSc-MGomaa/A-performancce-Analysis-of-MCTS-classification-model./blob/main/test3.jpg">
+<img width="700" height="500" src="https://github.com/MSc-MGomaa/A-performancce-Analysis-of-MCTS-classification-model./blob/main/table1.jpg">
 </p>
 
 
