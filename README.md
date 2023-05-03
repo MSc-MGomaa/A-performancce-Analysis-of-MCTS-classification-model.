@@ -20,7 +20,7 @@ The figure below shows the resulting predictive accuracy when increasing the num
 </p>
 
 <p align="justify">
-On the other side, using the same settings on other datasets showed a different behaviour. The experiment was repeated on two other datasets as shown in the Figure below. After a certain point, the continuous increase showed in the figure before turns into a $choppy behavior$. It was expected that after a certain point (under the assumption that, this point represents the optimal solution), the continuous increase turns into a constant. Which means that increasing the number of iterations after that point will yield the same value of the $predictive accuracy$. That expectation is based on the asymmetric characteristic of $MCTS$, which allows the algorithm to favor the promising nodes, Which means, after a certain point, $MCTS$ will lead to the same areas in the search space and, as a result, retrieve the same $predictive accuracy$ value. However, that unstable behavior occurred due to the fact that each dataset has its own internal characteristics, which means that the values assigned as hyperparameters must be tuned to match the characteristics of the current dataset. An example of these hyperparameters is the $jaccard\_similarity~\theta$, increasing the $number of iterations$ yields more $rules$, and as explained in $jaccard Similarity$, the first $rule$ which is non-similar to the current $rule$ is added to the $RuleSet$. In case that $\theta$ value doesn't fit the characteristics of the current dataset, low quality $rules$ will be added to the $RuleSet$, then the resulting performance is expected to be intermittent as shown in the figure below, which reflects the importance of the hyperparamters tuning step. 
+On the other side, using the same settings on other datasets showed a different behaviour. The experiment was repeated on two other datasets as shown in the Figure below. After a certain point, the continuous increase showed in the figure before turns into a $choppy\_behavior$. It was expected that after a certain point (under the assumption that, this point represents the optimal solution), the continuous increase turns into a constant. Which means that increasing the number of iterations after that point will yield the same value of the $predictive accuracy$. That expectation is based on the asymmetric characteristic of $MCTS$, which allows the algorithm to favor the promising nodes, Which means, after a certain point, $MCTS$ will lead to the same areas in the search space and, as a result, retrieve the same $predictive accuracy$ value. However, that unstable behavior occurred due to the fact that each dataset has its own internal characteristics, which means that the values assigned as hyperparameters must be tuned to match the characteristics of the current dataset. An example of these hyperparameters is the $jaccard\_similarity~\theta$, increasing the $number of iterations$ yields more $rules$, and as explained in $jaccard Similarity$, the first $rule$ which is non-similar to the current $rule$ is added to the $RuleSet$. In case that $\theta$ value doesn't fit the characteristics of the current dataset, low quality $rules$ will be added to the $RuleSet$, then the resulting performance is expected to be intermittent as shown in the figure below, which reflects the importance of the hyperparamters tuning step. 
 
 <p align="center">
 <img width="700" height="300" src="https://github.com/MSc-MGomaa/A-performancce-Analysis-of-MCTS-classification-model./blob/main/test2.jpg">
@@ -53,6 +53,18 @@ In $table\_4.1$, 16 datasets have been selected from the UCI repository, to eval
 
 <p align="justify">
 The results of the experiments are summarized in the tables $table\_4.2$, $table\_4.3$, and $table\_4.4$. Moreover, a graphical representation of the performance of each dataset can be seen on Fig~\ref{fig:merge1}, and~\ref{fig:merge2}. To see how well each M-estimate and Jaccard-similarity value perform, the datasets that have achieved the maximum accuracy using each value will be counted. Fig~\ref{fig:merge3} summarizes the results, where in Fig~\ref{fig:merge3}.a, the maximum number of datasets that achieved the max accuracy was when \emph{M-estimate} = 5, while the least number was when m = 0.1. The value of 0.1 represents a strict condition, where only the most promising nodes to be explored. On the other side, the value of 5 gives a chance to the least promising nodes to be explored. And from the results, the second technique ended up with a better performance.
+
+<p align="center">
+<img width="850" height="400" src="https://github.com/MSc-MGomaa/A-performancce-Analysis-of-MCTS-classification-model./blob/main/table2.png">
+</p>
+
+<p align="center">
+<img width="850" height="400" src="https://github.com/MSc-MGomaa/A-performancce-Analysis-of-MCTS-classification-model./blob/main/table3.png">
+</p>
+
+<p align="center">
+<img width="850" height="400" src="https://github.com/MSc-MGomaa/A-performancce-Analysis-of-MCTS-classification-model./blob/main/table4.png">
+</p>
 
 
 
