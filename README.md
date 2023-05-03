@@ -105,8 +105,13 @@ Fig 4.10 shows the general performance of the two approaches, where Jaccard-simi
 However, it was noticed during the experiments that the time needed to compose a $RuleSet$ using the $S\&Q$ approach is quite large compared to the one needed when using the Jaccard-similarity approach. That happened due to the fact that, in each iteration, the $S\&Q$ has to find the $rule$ that best describe the current shape of the dataset, which requires the evaluation of all the $rules$ to select the best. On the other side, when using the Jaccard-similarity approach, that sorting is done just for once, and then the similarity equation is used to to add the remaining $rules$ to the $RuleSet$.
 
 ## MCTS (VS) State-of-art Classification algorithms
+<p align="justify">
+To evaluate the general performance of our method, a comparison was made with four algorithms available in WEKA: RIPPER (JRIP), PART, J48 and Random-forest. The maximum accuracy achieved by our method for each dataset will be used as a representative of the performance of our method. The comparison is summarized in table 4.5,  where a competitive performance of our method can be observed. For a better representation of the results in in table 4.5, the results were visualized in Fig 12, where the performance of our method against each state-of-art classification algorithm is plotted independently.
 
 
+<p align="center">
+<img width="800" height="500" src="https://github.com/MSc-MGomaa/A-performancce-Analysis-of-MCTS-classification-model./blob/main/Fig10.png">
+</p>
 
 
 
