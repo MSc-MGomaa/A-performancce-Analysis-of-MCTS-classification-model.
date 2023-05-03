@@ -35,7 +35,7 @@ Choosing an appropriate $minimum\_support$ value plays a vital role in both the 
 In this section, we try to figure the effect of increasing the the minimum-support value on the resulting predictive accuracy and runtime. In the following experiments the value of $"1k"$ is used as a number of iterations. Due to the different sizes of datasets available, The range of applicable minimum-support values will take into account the size of the dataset to which they are applied. The figure below shows the experiments conducted to find out this effect. In the $Wine$ case, the max accuracy was achieved when the minimum-support = 30 using the $S\&Q$ approach, which approximately equals the accuracy value we got when the number of iterations was set to $8k$ and minimum-support = $10$. At the same time, the higher the minimum-support value, the lower the running time. At the same experiment, when the minimum-support = 40, the resulting accuracy is zero, as $MCTS$ is not able to generate the $rules$ that cover at least 40 samples. A similar performance was observed on the $Heart$ and \emph{Breast-Cancer} datasets. However, on the $Seeds$ dataset, increasing the number of iterations didn't lead to better results, as the best accuracy was achieved when the minimum-support = 10.
 
 <p align="center">
-<img width="700" height="500" src="https://github.com/MSc-MGomaa/A-performancce-Analysis-of-MCTS-classification-model./blob/main/test1.jpg">
+<img width="700" height="1000" src="https://github.com/MSc-MGomaa/A-performancce-Analysis-of-MCTS-classification-model./blob/main/test3.jpg">
 </p>
 
 
