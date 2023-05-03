@@ -101,7 +101,10 @@ Fig 4.10 shows the general performance of the two approaches, where Jaccard-simi
 <img width="800" height="500" src="https://github.com/MSc-MGomaa/A-performancce-Analysis-of-MCTS-classification-model./blob/main/Fig10.png">
 </p>
 
+<p align="justify">
+However, it was noticed during the experiments that the time needed to compose a $RuleSet$ using the $S\&Q$ approach is quite large compared to the one needed when using the Jaccard-similarity approach. That happened due to the fact that, in each iteration, the $S\&Q$ has to find the $rule$ that best describe the current shape of the dataset, which requires the evaluation of all the $rules$ to select the best. On the other side, when using the Jaccard-similarity approach, that sorting is done just for once, and then the similarity equation is used to to add the remaining $rules$ to the $RuleSet$.
 
+## MCTS (VS) State-of-art Classification algorithms
 
 
 
